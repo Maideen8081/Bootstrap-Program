@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button-group</title>
+</head>
+<link rel="stylesheet" href="./Asserts/css/bootstrap.min.css">
+<body>
+
+    <div class="container">
+        <div class="btn-group">
+            <button class="btn btn-primary mt-5" type="button">button1</button>
+            <button class="btn btn-primary mt-5" type="button">button1</button>
+        </div>
+
+        <!---button Activi-->
+        <div class="btn-group">
+            <button class="btn btn-success mt-5 active" type="button">button2</button>
+            <button class="btn btn-success mt-5 active" type="button">button2</button>
+<!---button dropdown -->
+            <div class="container">
+                <div class="btn-group">
+                    <button class="btn btn-primary mt-5 dropdown-toggle" type="button" id="mybutton1" data-bs-toggle="dropdown" role="group">button1</button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Active</a>
+                        <a href="#" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">link</a>
+                    
+                    </div>
+                    <button class="btn btn-primary mt-5" type="button">button1</button>
+                </div>
+        </div>
+        <div class="btn-group-vertical">
+            <button class="btn btn-primary" type="button">button1</button>
+            <button class="btn btn-primary" type="button">button1</button>
+            <button class="btn btn-primary" type="button">button1</button>
+        </div>
+       
+
+    </div>
+    
+
+        
+        <div class="btn-group">
+            <button class="btn btn-success mt-5 active" type="button">button2</button>
+            <button class="btn btn-success mt-5 active" type="button">button2</button>
+        </div>
+
+    </div>
+    <!----Checkbox creation-->
+
+    <div class="container">
+        <div class="btn-group mt-5">
+            <input type="checkbox" class="btn-check" id="check1">
+            <label for="check1" class="btn btn-outline-primary ">Button1</label>
+
+            <input type="checkbox" class="btn-check" id="check2">
+            <label for="check2" class="btn btn-outline-primary ">Button2</label>
+
+            <input type="checkbox" class="btn-check" id="check3">
+            <label for="check3" class="btn btn-outline-primary ">Button2</label>
+        </div>
+    </div>
+    <div class="container">
+        <div class="btn-group">
+             <input type="radio" class="btn-check" name="btnradio" id="radio1" autocomplete="off">
+             <label for="radio1" class="btn btn-outline-warning">button1</label>
+
+             <input type="radio" class="btn-check" name="btnradio" id="radio2" autocomplete="off">
+             <label for="radio2" class="btn btn-outline-warning">button1</label>
+
+             <input type="radio" class="btn-check" name="btnradio" id="radio3" autocomplete="off">
+             <label for="radio3" class="btn btn-outline-warning">button1</label>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+<script src="./Asserts/js/jquery.min.js"></script>
+<script src="./Asserts/js/bootstrap.min.js"></script>
+
+</body>
+</html>
